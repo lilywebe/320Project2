@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "name": "Iced Mocha",
+        "ingredients": [
+            "milk",
+            "mocha sauce",
+            "espresso",
+            "ice",
+            "whipped cream"
+        ],
+        "steps:": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4"
+        ],
+        "difficultylevel": 0.5
+    },
+    {
+        "id": 1,
+        "name": "Caramel Macchiato",
+        "ingredients": [
+            "milk",
+            "vanilla syrup",
+            "espresso",
+            "ice",
+            "caramel drizzle"
+        ],
+        "steps:": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4"
+        ],
+        "difficultylevel": 0.7
+    },
+    {
+        "id": 2,
+        "name": "Vanilla Frapuccino",
+        "ingredients": [
+            "milk",
+            "vanilla syrup",
+            "cream base",
+            "ice",
+            "whipped cream"
+        ],
+        "steps:": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4"
+        ],
+        "difficultylevel": 0.9
+    }
+]
