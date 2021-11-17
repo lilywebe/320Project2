@@ -26,6 +26,7 @@ export default function Trainer() {
           drinkSelected(id);
         }}
       />
+      <img src={curTraining.imageurl}/>
     </div>
   );
 
