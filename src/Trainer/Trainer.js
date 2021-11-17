@@ -35,5 +35,11 @@ export default function Trainer() {
     const foundDrink = drinks.find((drink) => drink.id == id);
     //set it as currently learning
     setCurTraining(foundDrink);
+    <DrinkVis
+      drinks={drinks}
+        curTraining={curTraining}
+        onSelected={(id) => {
+          drinkSelected(id);
+        }} />
   }
 }

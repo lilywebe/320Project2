@@ -13,12 +13,15 @@
             "Step 3",
             "Step 4"
         ],
+        "positions":[
+            {"x":20, "y":20}
+        ],
         "difficultylevel": 0.5,
         "imageurl":"./imagesforproject2/mocha.png"
     },
     {
         "id": 1,
-        "name": "Caramel Macchiato",
+        "name": "Espresso Macchiato",
         "ingredients": [
             "milk",
             "espresso"
@@ -28,6 +31,9 @@
             "Step 2",
             "Step 3",
             "Step 4"
+        ],
+        "positions":[
+            {"x":20, "y":20}
         ],
         "difficultylevel": 0.7,
         "imageurl":"./imagesforproject2/espressomacchiato.png"
@@ -44,6 +50,9 @@
             "Step 2",
             "Step 3",
             "Step 4"
+        ],
+        "positions":[
+            {"x":20, "y":20}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/americano.png"
@@ -62,6 +71,9 @@
             "Step 3",
             "Step 4"
         ],
+        "positions":[
+            {"x":20, "y":20}
+        ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/breve.png"
     },
@@ -78,6 +90,9 @@
             "Step 3",
             "Step 4"
         ],
+        "positions":[
+            {"x":20, "y":20}
+        ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/cappucino.png"
     },
@@ -92,6 +107,9 @@
             "Step 2",
             "Step 3",
             "Step 4"
+        ],
+        "positions":[
+            {"x":20, "y":20}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espresso.png"
@@ -109,6 +127,9 @@
             "Step 3",
             "Step 4"
         ],
+        "positions":[
+            {"x":20, "y":20}
+        ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espressopanna.png"
     },
@@ -125,6 +146,9 @@
             "Step 3",
             "Step 4"
         ],
+        "positions":[
+            {"x":20, "y":20}
+        ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/flatwhite.png"
     },
@@ -140,6 +164,9 @@
             "Step 2",
             "Step 3",
             "Step 4"
+        ],
+        "positions":[
+            {"x":20, "y":20}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/latte.png"
