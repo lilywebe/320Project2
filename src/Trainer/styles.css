@@ -1,3 +1,7 @@
+*{
+  font-family: 'Architects Daughter', cursive;
+}
+
 #infoBox {
     width: 60%;
     height: 40%;
@@ -5,4 +9,68 @@
     background-color: #fff;
     border-radius: 6px;
     padding: 4px;
+  }
+  #playfield{
+    width:50%;
+    height:50%;
+    margin: auto;
+    
+
+  }
+
+  img{
+    width:350px;
+    height:350px;
+    margin-left: 200px;
+    margin-bottom:10px;
+  }
+
+  #stufftoflex{
+    display:flex;
+    flex-direction: row;
+  }
+
+  #heading{
+    text-align:center;
+    margin-bottom: 50px;
+    font-size:40px;
+  }
+  #sub{
+    font-size:30px;
+  }
+  .active{
+    font-weight: bold;
+    border: #000;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    margin:5px;
+    background-color:#d5c4b4;
+    padding:2px;
+  }
+  .inactive{
+    border: #000;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    margin:5px;
+    background-color:#d5c4b4;
+    padding: 2px;
+  }
+  .img-overlay-wrap {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+  }
+  
+  .img-overlay-wrap img { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+  }
+  
+  .img-overlay-wrap svg {
+    position: absolute;
+    top: 0;
+    left: 0;
   }

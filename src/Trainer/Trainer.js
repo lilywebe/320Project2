@@ -37,11 +37,14 @@ export default function Trainer() {
   }, []);
 
   return (
-    <div>
+    <div id ="playfield">
+      <div id="heading">
       Barista Trainer
-      <div>
+      <div id="sub">
         Now Learning: {curTraining.name}
+        </div>
       </div>
+      <div id="stufftoflex">
       <DrinkList
         drinks={drinks}
         curTraining={curTraining}
@@ -58,6 +61,7 @@ export default function Trainer() {
         }} 
         modalopen={modalopen}
          />
+         </div>
          <LearningProgress
          progress={progress}/>
     </div>
