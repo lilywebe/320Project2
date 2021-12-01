@@ -3,6 +3,6 @@ import {LinearProgress} from "@mui/material";
 
 export default function LearningProgress(props){
     return (<div>
-        <LinearProgress variant="determinate" value={props.progress}/>
+        <LinearProgress variant="determinate" value={props.progress} color="inherit"/>
     </div>)
 }

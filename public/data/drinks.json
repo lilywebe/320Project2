@@ -16,7 +16,7 @@
         "numsteps":3,
 
         "positions":[
-            {"x":20, "y":20}, {"x":50, "y":50}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.5,
         "imageurl":"./imagesforproject2/mocha.png"
@@ -36,7 +36,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}, {"x":50, "y":50}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.7,
         "imageurl":"./imagesforproject2/espressomacchiato.png"
@@ -56,7 +56,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/americano.png"
@@ -77,7 +77,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/breve.png"
@@ -97,7 +97,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/cappucino.png"
@@ -116,7 +116,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espresso.png"
@@ -136,7 +136,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espressopanna.png"
@@ -156,7 +156,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/flatwhite.png"
@@ -176,7 +176,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/latte.png"

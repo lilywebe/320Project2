@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Completion from "./Completion";
 import DrinkList from "./DrinkList";
 import DrinkVis from "./DrinkVis";
 import LearningProgress from "./LearningProgress";
@@ -66,7 +67,8 @@ export default function Trainer() {
          </div>
          <LearningProgress
          progress={progress}/>
-
+        <Completion
+        progress={progress}/>
 
     </div>
   );
