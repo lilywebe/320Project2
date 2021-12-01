@@ -7,7 +7,7 @@
             "mocha sauce",
             "espresso"
         ],
-        "steps:": [
+        "steps":[
             "Step 1",
             "Step 2",
             "Step 3",
@@ -16,7 +16,7 @@
         "numsteps":3,
 
         "positions":[
-            {"x":20, "y":20}
+            {"x":20, "y":20}, {"x":50, "y":50}
         ],
         "difficultylevel": 0.5,
         "imageurl":"./imagesforproject2/mocha.png"
@@ -28,7 +28,7 @@
             "milk",
             "espresso"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -36,7 +36,7 @@
         ],
         "numsteps":3,
         "positions":[
-            {"x":20, "y":20}
+            {"x":20, "y":20}, {"x":50, "y":50}
         ],
         "difficultylevel": 0.7,
         "imageurl":"./imagesforproject2/espressomacchiato.png"
@@ -48,7 +48,7 @@
             "espresso",
             "water"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -69,7 +69,7 @@
             "Half and Half",
             "milk"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -89,7 +89,7 @@
             "espresso",
             "milk"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -108,7 +108,7 @@
         "ingredients": [
             "espresso"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -128,7 +128,7 @@
             "espresso",
             "whipped cream"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -148,7 +148,7 @@
             "espresso",
             "milk"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",
@@ -168,7 +168,7 @@
             "espresso",
             "milk"
         ],
-        "steps:": [
+        "steps": [
             "Step 1",
             "Step 2",
             "Step 3",

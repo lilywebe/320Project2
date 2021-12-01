@@ -5,7 +5,7 @@ import LearningProgress from "./LearningProgress";
 import './styles.css';
 export default function Trainer() {
   const [drinks, setDrinks] = useState([]);
-  const [modalopen, setModalOpen] = useState(true);
+  const [modalopen, setModalOpen] = useState(false);
   const [progress, setProgress] = useState(0);
   const [curTraining, setCurTraining] = useState({    "id": 0,
   "name": "Mocha",
@@ -60,10 +60,14 @@ export default function Trainer() {
           drinkSelected(id);
         }} 
         modalopen={modalopen}
+        setProgress={setProgress}
+        progress={progress}
          />
          </div>
          <LearningProgress
          progress={progress}/>
+
+
     </div>
   );
 
@@ -72,10 +76,6 @@ export default function Trainer() {
     const foundDrink = drinks.find((drink) => drink.id == id);
     //set it as currently learning
     setCurTraining(foundDrink);
-    //set modal open
-    setModalOpen(true);
-    //logic not right just testing progress
-    setProgress(progress+1);
 
   }
 }
