@@ -15,15 +15,15 @@ export default function Trainer() {
       "mocha sauce",
       "espresso"
   ],
-  "steps:": [
-      "Step 1",
-      "Step 2",
-      "Step 3",
-      "Step 4"
+  "steps": [
+    "Brew an espresso into a mug, cup or glass.",
+    "Add two teaspoons of hot chocolate mix or cocoa powder and mix with the espresso.",
+    "Foam and texture the required quantity of milk, ensuring we have a good quality foam.",
+    "Add the milk to the cup containing the chocolate espresso and top with whipped cream."
   ],
-  "positions":[
-      {"x":20, "y":20}
-  ],
+  
+  "positions":[{"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}],
+  
   "difficultylevel": 0.5,
   "imageurl":"./imagesforproject2/mocha.png"
 

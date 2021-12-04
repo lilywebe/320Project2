@@ -8,10 +8,10 @@
             "espresso"
         ],
         "steps":[
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Brew an espresso into a mug, cup or glass.",
+            "Add two teaspoons of hot chocolate mix or cocoa powder and mix with the espresso.*",
+            "Foam and texture the required quantity of milk, ensuring we have a good quality foam.",
+            "Add the milk to the cup containing the chocolate espresso and top with whipped cream."
         ],
         "numsteps":3,
 
@@ -29,14 +29,12 @@
             "espresso"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Prepare an Espresso in an Espresso cup and add sugar if desired",
+            "Top the Espresso with a little frothed milk"
         ],
         "numsteps":3,
         "positions":[
-            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
+            {"x":35, "y":15}, {"x":35, "y":45}
         ],
         "difficultylevel": 0.7,
         "imageurl":"./imagesforproject2/espressomacchiato.png"
@@ -49,14 +47,12 @@
             "water"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Use an espresso machine or manual espresso maker to make one shot of espresso and pour it into a mug",
+            "Heat water to about 190 degrees Fahrenheit. Pour it into the espresso."
         ],
         "numsteps":3,
         "positions":[
-            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
+            {"x":35, "y":15}, {"x":35, "y":45}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/americano.png"
@@ -70,10 +66,10 @@
             "milk"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Steam and froth half-and-half at 145-160 degrees Fahrenheit and allow the half and half to set",
+            "Pour steamed half-and-half into a mug, holding back the foam and pour half of the foam on top",
+            "Pull one 2 oz shot of espresso and slowly pour the espresso into the mug",
+            "Top with more foam"
         ],
         "numsteps":3,
         "positions":[
