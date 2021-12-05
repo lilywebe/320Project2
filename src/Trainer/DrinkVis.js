@@ -4,19 +4,36 @@ import { Modal } from "@mui/material";
 export default function DrinkVis(props) {
   const [showModal, setShowModal] = useState(props.modalopen);
   const [curInd, setCurInd] = useState(0);
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState([]);
   const circles = [];
   const text = [];
+
+  if(props.drinks.length > 0){
+  var temp = clicked;
+  if(temp.length == 0){
+    for (const [drinkindex, drink] of props.drinks.entries()) {
+      var drinkarray = [];
+      for (const [stepindex, step] of drink.steps.entries()) {
+      drinkarray = [...drinkarray, false];
+    }
+    temp = [...temp, drinkarray];
+  }
+    setClicked(temp);
+  }
+
   for (const [index, value] of props.curTraining.positions.entries()) {
-    circles.push(<circle className={clicked ? "clicked" : "unclicked"} r="10" cx={props.curTraining["positions"][index].x} cy={props.curTraining["positions"][index].y} fill="#FFFFC9" stroke="black" strokeWidth="1"  onClick={() => {
+    console.log(temp);
+    circles.push(<circle className={temp[props.curTraining.id][index] ? "clicked" : "unclicked"} r="10" cx={props.curTraining["positions"][index].x} cy={props.curTraining["positions"][index].y} fill="#FFFFC9" stroke="black" strokeWidth="1"  onClick={() => {
+      if(temp[props.curTraining.id][index]==true){
+      }
+      else{
       props.setProgress(props.progress+5);
       setCurInd(index);
       setShowModal(true);
-      console.log(index);
-      setClicked(true);
+      setClickArray(props.curTraining.id, index, clicked, setClicked);
+      }
     }}/>
     )};
-
 
     for (const [index, value] of props.curTraining.positions.entries()) {
       text.push(<text x={props.curTraining["positions"][index].x-5} y={props.curTraining["positions"][index].y+5} fill="#FFFFC9" stroke="black" strokeWidth="1">{index+1}</text>
@@ -50,5 +67,15 @@ export default function DrinkVis(props) {
 
 
   )
-
+    }
+    return (<div></div>);
 }
+
+function setClickArray(recipeindex, stepindex,  clicked, setClicked){
+  var temp = [...clicked];
+  temp[recipeindex][stepindex] = true;
+  setClicked(temp);
+}
+
+
+
