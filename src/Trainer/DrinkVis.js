@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Modal } from "@mui/material";
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
+import './styles.css';
 
 export default function DrinkVis(props) {
   const [showModal, setShowModal] = useState(props.modalopen);
@@ -41,7 +46,14 @@ export default function DrinkVis(props) {
 
   return (<div>
     <div className="img-overlay-wrap">
+    <CSSTransition
+       key={props.curTraining.id}
+       timeout={500}
+       classNames="item"
+       in="true"
+      >
       <img src={props.curTraining.imageurl} />
+      </CSSTransition>
       <svg viewBox="0 0 200 200">
         {circles}
         {text}

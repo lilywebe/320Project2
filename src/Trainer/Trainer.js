@@ -8,6 +8,7 @@ export default function Trainer() {
   const [drinks, setDrinks] = useState([]);
   const [modalopen, setModalOpen] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [showImage,setShowImage] = useState(true);
   const [curTraining, setCurTraining] = useState({    "id": 0,
   "name": "Mocha",
   "ingredients": [
@@ -63,6 +64,7 @@ export default function Trainer() {
         modalopen={modalopen}
         setProgress={setProgress}
         progress={progress}
+        showImage={showImage}
          />
          </div>
          <LearningProgress
@@ -78,6 +80,8 @@ export default function Trainer() {
     const foundDrink = drinks.find((drink) => drink.id == id);
     //set it as currently learning
     setCurTraining(foundDrink);
+    //set show image equal to true
+    setShowImage(true);
 
   }
 }
