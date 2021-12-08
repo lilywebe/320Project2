@@ -32,7 +32,7 @@ export default function DrinkVis(props) {
       if(temp[props.curTraining.id][index]==true){
       }
       else{
-      props.setProgress(props.progress+5);
+      props.setProgress(props.progress+3.45);
       setCurInd(index);
       setShowModal(true);
       setClickArray(props.curTraining.id, index, clicked, setClicked);

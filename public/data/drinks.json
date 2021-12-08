@@ -86,10 +86,10 @@
             "milk"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Foam and texture the required quantity of milk - Remember! We want more foam than steamed milk",
+            "Brew a single or double espresso (as per taste or order) directly into your serving cup",
+            "Gently swirl the milk to release any large air bubbles - tap the milk jug against a counter to remove any stubborn bubbles",
+            "Pour the milk over the espresso from a low height for a smooth drink"
         ],
         "numsteps":3,
         "positions":[
@@ -105,14 +105,13 @@
             "espresso"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Insert the portafilter into the brew head",
+            "Start pulling the espresso shot.",
+            "Stop the shot once it's brewed for around 20 seconds."
         ],
         "numsteps":3,
         "positions":[
-            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espresso.png"
@@ -125,14 +124,13 @@
             "whipped cream"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Pull your espresso shot",
+            "Whip cream until stiff peaks form",
+            "Dollop whipped cream on your espresso"
         ],
         "numsteps":3,
         "positions":[
-            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/espressopanna.png"
@@ -145,10 +143,10 @@
             "milk"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Prepare a double espresso (doppio) whilst remembering to ensure a nice even tamp for a smooth, pure coffee extraction",
+            "Foam your milk, paying attention to creating a nice smooth microfoam, during the latter stages of you milk foaming, start brewing your espresso",
+            "After frothing your milk, gently tap the jug or bump on a table to remove any unwanted large air bubbles",
+            "Finally, pour 100ml of the frothed milk into the espresso, this should create a rich floating crema on top of the milk"
         ],
         "numsteps":3,
         "positions":[
@@ -165,14 +163,13 @@
             "milk"
         ],
         "steps": [
-            "Step 1",
-            "Step 2",
-            "Step 3",
-            "Step 4"
+            "Prepare an espresso (single or double) directly into a latte glass",
+            "Foam your milk prior to brewing your espresso, paying attention to creating a nice smooth microfoam",
+            "Begin pouring the frothed milk to your espresso from a relatively high position, and continue to pour whilst lowering the milk and steepening your pouring angle"
         ],
         "numsteps":3,
         "positions":[
-            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
+            {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],
         "difficultylevel": 0.9,
         "imageurl":"./imagesforproject2/latte.png"

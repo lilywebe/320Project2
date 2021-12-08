@@ -70,7 +70,8 @@ export default function Trainer() {
          <LearningProgress
          progress={progress}/>
         <Completion
-        progress={progress}/>
+        progress={progress}
+        setProgress={setProgress}/>
 
     </div>
   );
