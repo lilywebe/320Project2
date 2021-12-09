@@ -13,7 +13,6 @@
             "Foam and texture the required quantity of milk, ensuring we have a good quality foam.",
             "Add the milk to the cup containing the chocolate espresso and top with whipped cream."
         ],
-        "numsteps":3,
 
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
@@ -32,7 +31,6 @@
             "Prepare an Espresso in an Espresso cup and add sugar if desired",
             "Top the Espresso with a little frothed milk"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}
         ],
@@ -50,7 +48,6 @@
             "Use an espresso machine or manual espresso maker to make one shot of espresso and pour it into a mug",
             "Heat water to about 190 degrees Fahrenheit. Pour it into the espresso."
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}
         ],
@@ -71,7 +68,6 @@
             "Pull one 2 oz shot of espresso and slowly pour the espresso into the mug",
             "Top with more foam"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
@@ -91,7 +87,6 @@
             "Gently swirl the milk to release any large air bubbles - tap the milk jug against a counter to remove any stubborn bubbles",
             "Pour the milk over the espresso from a low height for a smooth drink"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
@@ -109,7 +104,6 @@
             "Start pulling the espresso shot.",
             "Stop the shot once it's brewed for around 20 seconds."
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],
@@ -128,7 +122,6 @@
             "Whip cream until stiff peaks form",
             "Dollop whipped cream on your espresso"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],
@@ -148,7 +141,6 @@
             "After frothing your milk, gently tap the jug or bump on a table to remove any unwanted large air bubbles",
             "Finally, pour 100ml of the frothed milk into the espresso, this should create a rich floating crema on top of the milk"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}
         ],
@@ -167,7 +159,6 @@
             "Foam your milk prior to brewing your espresso, paying attention to creating a nice smooth microfoam",
             "Begin pouring the frothed milk to your espresso from a relatively high position, and continue to pour whilst lowering the milk and steepening your pouring angle"
         ],
-        "numsteps":3,
         "positions":[
             {"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}
         ],

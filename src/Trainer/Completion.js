@@ -7,6 +7,7 @@ import Backdrop from '@mui/material/Backdrop';
 
 export default function Completion(props) {
 
+  //mui docs donation <3
   const style = {
     position: 'absolute',
     top: '50%',
@@ -18,10 +19,14 @@ export default function Completion(props) {
     boxShadow: 24,
     p: 4,
   };
+//end donation
 
+
+//if last button was clicked, show completion modal
 if(props.progress>=150){
   return <div><Modal open 
   onClose={() => {
+    //after they close the modal, refresh the whole page
     window.location.reload();
   }}
   closeAfterTransition

@@ -5,10 +5,12 @@ import DrinkVis from "./DrinkVis";
 import LearningProgress from "./LearningProgress";
 import './styles.css';
 export default function Trainer() {
+  //initialize all state variables
   const [drinks, setDrinks] = useState([]);
   const [modalopen, setModalOpen] = useState(false);
   const [progress, setProgress] = useState(0);
-  const [showImage,setShowImage] = useState(true);
+
+  //here so that react doesn't yell about the user not having selected something on load
   const [curTraining, setCurTraining] = useState({    "id": 0,
   "name": "Mocha",
   "ingredients": [
@@ -30,6 +32,7 @@ export default function Trainer() {
 
 });
 
+//get all data from JSON file
   useEffect(() => {
     fetch("data/drinks.json")
       .then((response) => response.json())
@@ -39,6 +42,7 @@ export default function Trainer() {
   }, []);
 
   return (
+    //heading and now training display, list of drinks with selected drink highlighted
     <div id ="playfield">
       <div id="heading">
       Barista Trainer
@@ -55,6 +59,7 @@ export default function Trainer() {
           
         }}
       />
+      {/* Drink Visualizations inclusing circles, images, and modal  */}
       <DrinkVis
       drinks={drinks}
         curTraining={curTraining}
@@ -64,11 +69,13 @@ export default function Trainer() {
         modalopen={modalopen}
         setProgress={setProgress}
         progress={progress}
-        showImage={showImage}
          />
          </div>
+         {/* Progress bar at bottom of screen */}
          <LearningProgress
          progress={progress}/>
+         {/* Screen that shows the user that they've clicked through all drink steps and refreshes screen
+         To test without actually doing that, change the value of progress to start at 100 and click a step */}
         <Completion
         progress={progress}
         setProgress={setProgress}/>
@@ -76,13 +83,14 @@ export default function Trainer() {
     </div>
   );
 
+  //function so generously donated by one of the labs we did in class
+  //finds the drink matching the button the user picked and sets it to be currently training
   function drinkSelected(id) {
     //find that drink
     const foundDrink = drinks.find((drink) => drink.id == id);
     //set it as currently learning
     setCurTraining(foundDrink);
-    //set show image equal to true
-    setShowImage(true);
+  
 
   }
 }
