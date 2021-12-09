@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Modal } from "@mui/material";
+import { Modal, Fade, Box } from "@mui/material";
+import Backdrop from '@mui/material/Backdrop';
+//import Modal from 'react-modal';
 import {
   CSSTransition,
   TransitionGroup,
@@ -12,6 +14,17 @@ export default function DrinkVis(props) {
   const [clicked, setClicked] = useState([]);
   const circles = [];
   const text = [];
+  const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid ##d5c4b4',
+    boxShadow: 24,
+    p: 4,
+  };
 
   if(props.drinks.length > 0){
   var temp = clicked;
@@ -30,8 +43,10 @@ export default function DrinkVis(props) {
     console.log(temp);
     circles.push(<circle className={temp[props.curTraining.id][index] ? "clicked" : "unclicked"} r="10" cx={props.curTraining["positions"][index].x} cy={props.curTraining["positions"][index].y} fill="#FFFFC9" stroke="black" strokeWidth="1"  onClick={() => {
       if(temp[props.curTraining.id][index]==true){
+
       }
       else{
+
       props.setProgress(props.progress+3.45);
       setCurInd(index);
       setShowModal(true);
@@ -46,14 +61,7 @@ export default function DrinkVis(props) {
 
   return (<div>
     <div className="img-overlay-wrap">
-    <CSSTransition
-       key={props.curTraining.id}
-       timeout={500}
-       classNames="item"
-       in="true"
-      >
       <img src={props.curTraining.imageurl} />
-      </CSSTransition>
       <svg viewBox="0 0 200 200">
         {circles}
         {text}
@@ -64,16 +72,30 @@ export default function DrinkVis(props) {
     
     
     <Modal
-      open={showModal}
-      onClose={() => {
-        setShowModal(false);
-      }}
+    open={showModal}
+    onClose={() => {
+      setShowModal(false);
+      if(props.progress>100){
+        props.setProgress(props.progress+50);
+      }
+    }}
+    closeAfterTransition
+    BackdropComponent={Backdrop}
+    BackdropProps={{
+      timeout: 500,
+    }}
+    
     >
-      <div id="infoBox">
+      <Fade in={showModal}>
+        <Box sx={style}>
+      <div>
         <h3>Step {curInd+1} : </h3>
         <p>{props.curTraining.steps[curInd]}</p>
       </div>
+      </Box>
+      </Fade>
     </Modal>
+  
   
   </div>
 

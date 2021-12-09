@@ -2,14 +2,7 @@
   font-family: 'Architects Daughter', cursive;
 }
 
-#infoBox {
-    width: 60%;
-    height: 40%;
-    margin: 10% auto;
-    background-color: #fff;
-    border-radius: 6px;
-    padding: 4px;
-  }
+
   #playfield{
     width:50%;
     height:50%;
@@ -91,3 +84,15 @@ fill:"black";
     opacity: 0;
     transition: opacity 500ms ease-in;
   }
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 5000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
