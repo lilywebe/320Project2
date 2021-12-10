@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lilywebe/320Project2.git/static/css/main.cacc983c.chunk.css",
-    "main.js": "/lilywebe/320Project2.git/static/js/main.acdbd777.chunk.js",
-    "main.js.map": "/lilywebe/320Project2.git/static/js/main.acdbd777.chunk.js.map",
-    "runtime-main.js": "/lilywebe/320Project2.git/static/js/runtime-main.805eda60.js",
-    "runtime-main.js.map": "/lilywebe/320Project2.git/static/js/runtime-main.805eda60.js.map",
-    "static/js/2.9545402c.chunk.js": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js",
-    "static/js/2.9545402c.chunk.js.map": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js.map",
-    "static/js/3.4725764a.chunk.js": "/lilywebe/320Project2.git/static/js/3.4725764a.chunk.js",
-    "static/js/3.4725764a.chunk.js.map": "/lilywebe/320Project2.git/static/js/3.4725764a.chunk.js.map",
-    "index.html": "/lilywebe/320Project2.git/index.html",
-    "static/css/main.cacc983c.chunk.css.map": "/lilywebe/320Project2.git/static/css/main.cacc983c.chunk.css.map",
-    "static/js/2.9545402c.chunk.js.LICENSE.txt": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js.LICENSE.txt"
+    "main.css": "/320Project2/static/css/main.cacc983c.chunk.css",
+    "main.js": "/320Project2/static/js/main.acdbd777.chunk.js",
+    "main.js.map": "/320Project2/static/js/main.acdbd777.chunk.js.map",
+    "runtime-main.js": "/320Project2/static/js/runtime-main.899f5e0c.js",
+    "runtime-main.js.map": "/320Project2/static/js/runtime-main.899f5e0c.js.map",
+    "static/js/2.9545402c.chunk.js": "/320Project2/static/js/2.9545402c.chunk.js",
+    "static/js/2.9545402c.chunk.js.map": "/320Project2/static/js/2.9545402c.chunk.js.map",
+    "static/js/3.4725764a.chunk.js": "/320Project2/static/js/3.4725764a.chunk.js",
+    "static/js/3.4725764a.chunk.js.map": "/320Project2/static/js/3.4725764a.chunk.js.map",
+    "index.html": "/320Project2/index.html",
+    "static/css/main.cacc983c.chunk.css.map": "/320Project2/static/css/main.cacc983c.chunk.css.map",
+    "static/js/2.9545402c.chunk.js.LICENSE.txt": "/320Project2/static/js/2.9545402c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.805eda60.js",
+    "static/js/runtime-main.899f5e0c.js",
     "static/js/2.9545402c.chunk.js",
     "static/css/main.cacc983c.chunk.css",
     "static/js/main.acdbd777.chunk.js"
