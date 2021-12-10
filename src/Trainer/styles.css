@@ -67,8 +67,14 @@
     top: 0;
     left: 0;
   }
-  .clicked{
-fill:"black";
+  circle.clicked{
+    fill:black;
+    opacity:1;
+    transition: all 1s ease;
+  }
+  text.clicked{
+    stroke:#FFFFC9;
+    transition: all 1s ease;
   }
   .item-enter {
     opacity: 0;
@@ -84,15 +90,3 @@ fill:"black";
     opacity: 0;
     transition: opacity 500ms ease-in;
   }
-  .ReactModal__Overlay {
-    opacity: 0;
-    transition: opacity 5000ms ease-in-out;
-}
-
-.ReactModal__Overlay--after-open{
-    opacity: 1;
-}
-
-.ReactModal__Overlay--before-close{
-    opacity: 0;
-}
