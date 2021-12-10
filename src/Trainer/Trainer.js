@@ -11,28 +11,27 @@ export default function Trainer() {
   const [progress, setProgress] = useState(0);
 
   //here so that react doesn't yell about the user not having selected something on load
-  const [curTraining, setCurTraining] = useState({    "id": 0,
-  "name": "Mocha",
-  "ingredients": [
+  const [curTraining, setCurTraining] = useState({
+    "id": 0,
+    "name": "Mocha",
+    "ingredients": [
       "milk",
       "mocha sauce",
       "espresso"
-  ],
-  "steps": [
-    "Brew an espresso into a mug, cup or glass.",
-    "Add two teaspoons of hot chocolate mix or cocoa powder and mix with the espresso.",
-    "Foam and texture the required quantity of milk, ensuring we have a good quality foam.",
-    "Add the milk to the cup containing the chocolate espresso and top with whipped cream."
-  ],
-  
-  "positions":[{"x":35, "y":15}, {"x":35, "y":45}, {"x":35, "y":75}, {"x":35, "y":105}],
-  
-  "difficultylevel": 0.5,
-  "imageurl":"./imagesforproject2/mocha.png"
+    ],
+    "steps": [
+      "Brew an espresso into a mug, cup or glass.",
+      "Add two teaspoons of hot chocolate mix or cocoa powder and mix with the espresso.",
+      "Foam and texture the required quantity of milk, ensuring we have a good quality foam.",
+      "Add the milk to the cup containing the chocolate espresso and top with whipped cream."
+    ],
 
-});
+    "positions": [{ "x": 35, "y": 15 }, { "x": 35, "y": 45 }, { "x": 35, "y": 75 }, { "x": 35, "y": 105 }],
+    "imageurl": "./imagesforproject2/mocha.png"
 
-//get all data from JSON file
+  });
+
+  //get all data from JSON file
   useEffect(() => {
     fetch("data/drinks.json")
       .then((response) => response.json())
@@ -43,42 +42,42 @@ export default function Trainer() {
 
   return (
     //heading and now training display, list of drinks with selected drink highlighted
-    <div id ="playfield">
+    <div id="playfield">
       <div id="heading">
-      Barista Trainer
-      <div id="sub">
-        Now Learning: {curTraining.name}
+        Barista Trainer
+        <div id="sub">
+          Now Learning: {curTraining.name}
         </div>
       </div>
       <div id="stufftoflex">
-      <DrinkList
-        drinks={drinks}
-        curTraining={curTraining}
-        onSelected={(id) => {
-          drinkSelected(id);
-          
-        }}
-      />
-      {/* Drink Visualizations inclusing circles, images, and modal  */}
-      <DrinkVis
-      drinks={drinks}
-        curTraining={curTraining}
-        onSelected={(id) => {
-          drinkSelected(id);
-        }} 
-        modalopen={modalopen}
-        setProgress={setProgress}
-        progress={progress}
-         />
-         </div>
-         {/* Progress bar at bottom of screen */}
-         <LearningProgress
-         progress={progress}/>
-         {/* Screen that shows the user that they've clicked through all drink steps and refreshes screen
+        <DrinkList
+          drinks={drinks}
+          curTraining={curTraining}
+          onSelected={(id) => {
+            drinkSelected(id);
+
+          }}
+        />
+        {/* Drink Visualizations inclusing circles, images, and modal  */}
+        <DrinkVis
+          drinks={drinks}
+          curTraining={curTraining}
+          onSelected={(id) => {
+            drinkSelected(id);
+          }}
+          modalopen={modalopen}
+          setProgress={setProgress}
+          progress={progress}
+        />
+      </div>
+      {/* Progress bar at bottom of screen */}
+      <LearningProgress
+        progress={progress} />
+      {/* Screen that shows the user that they've clicked through all drink steps and refreshes screen
          To test without actually doing that, change the value of progress to start at 100 and click a step */}
-        <Completion
+      <Completion
         progress={progress}
-        setProgress={setProgress}/>
+        setProgress={setProgress} />
 
     </div>
   );
@@ -90,7 +89,7 @@ export default function Trainer() {
     const foundDrink = drinks.find((drink) => drink.id == id);
     //set it as currently learning
     setCurTraining(foundDrink);
-  
+
 
   }
 }
