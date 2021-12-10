@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Deploy320Project/static/css/main.cacc983c.chunk.css",
-    "main.js": "/Deploy320Project/static/js/main.acdbd777.chunk.js",
-    "main.js.map": "/Deploy320Project/static/js/main.acdbd777.chunk.js.map",
-    "runtime-main.js": "/Deploy320Project/static/js/runtime-main.84dac81a.js",
-    "runtime-main.js.map": "/Deploy320Project/static/js/runtime-main.84dac81a.js.map",
-    "static/js/2.9545402c.chunk.js": "/Deploy320Project/static/js/2.9545402c.chunk.js",
-    "static/js/2.9545402c.chunk.js.map": "/Deploy320Project/static/js/2.9545402c.chunk.js.map",
-    "static/js/3.4725764a.chunk.js": "/Deploy320Project/static/js/3.4725764a.chunk.js",
-    "static/js/3.4725764a.chunk.js.map": "/Deploy320Project/static/js/3.4725764a.chunk.js.map",
-    "index.html": "/Deploy320Project/index.html",
-    "static/css/main.cacc983c.chunk.css.map": "/Deploy320Project/static/css/main.cacc983c.chunk.css.map",
-    "static/js/2.9545402c.chunk.js.LICENSE.txt": "/Deploy320Project/static/js/2.9545402c.chunk.js.LICENSE.txt"
+    "main.css": "/lilywebe/320Project2.git/static/css/main.cacc983c.chunk.css",
+    "main.js": "/lilywebe/320Project2.git/static/js/main.acdbd777.chunk.js",
+    "main.js.map": "/lilywebe/320Project2.git/static/js/main.acdbd777.chunk.js.map",
+    "runtime-main.js": "/lilywebe/320Project2.git/static/js/runtime-main.805eda60.js",
+    "runtime-main.js.map": "/lilywebe/320Project2.git/static/js/runtime-main.805eda60.js.map",
+    "static/js/2.9545402c.chunk.js": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js",
+    "static/js/2.9545402c.chunk.js.map": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js.map",
+    "static/js/3.4725764a.chunk.js": "/lilywebe/320Project2.git/static/js/3.4725764a.chunk.js",
+    "static/js/3.4725764a.chunk.js.map": "/lilywebe/320Project2.git/static/js/3.4725764a.chunk.js.map",
+    "index.html": "/lilywebe/320Project2.git/index.html",
+    "static/css/main.cacc983c.chunk.css.map": "/lilywebe/320Project2.git/static/css/main.cacc983c.chunk.css.map",
+    "static/js/2.9545402c.chunk.js.LICENSE.txt": "/lilywebe/320Project2.git/static/js/2.9545402c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.84dac81a.js",
+    "static/js/runtime-main.805eda60.js",
     "static/js/2.9545402c.chunk.js",
     "static/css/main.cacc983c.chunk.css",
     "static/js/main.acdbd777.chunk.js"
